@@ -58,3 +58,8 @@ DOMAIN-SUFFIX,nintendo.jp
 DOMAIN-SUFFIX,nintendo.net
 DOMAIN-SUFFIX,nintendo.nl
 DOMAIN-SUFFIX,nintendowifi.net
+# NAME: 2KGames
+DOMAIN-SUFFIX,2k.com
+DOMAIN-SUFFIX,2kcoretech.online
+DOMAIN-SUFFIX,2kgames.com
+DOMAIN-SUFFIX,take2games.com
