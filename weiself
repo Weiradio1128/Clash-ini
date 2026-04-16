@@ -77,20 +77,20 @@ dns:
   direct-nameserver-follow-policy: true
 
 proxies:
-  - name: "自己的节点名称" # 改成你自己的节点名称，可自定义
+  - name: "VLESS" # 改成你自己的节点名称，可自定义
     type: vless
-    server: YOUR_VPS_IP_OR_DOMAIN # 必改：改成你自己的 VPS IP 或域名
+    server: 154.17.31.28 # 必改：改成你自己的 VPS IP 或域名
     port: 443 # 必改：改成你自己的端口
-    uuid: "YOUR_UUID_HERE" # 必改：改成你自己的 UUID
+    uuid: "e28d3075-5431-4159-a5e2-8c07795aab93" # 必改：改成你自己的 UUID
     udp: true
     flow: xtls-rprx-vision
     packet-encoding: xudp
     tls: true
-    servername: "YOUR_SNI_DOMAIN" # 必改：改成你自己节点使用的 SNI / 伪装域名
+    servername: "www.icloud.com" # 必改：改成你自己节点使用的 SNI / 伪装域名
     client-fingerprint: chrome
     reality-opts:
-      public-key: "YOUR_REALITY_PUBLIC_KEY" # 必改：改成你自己的 Reality 公钥
-      short-id: "YOUR_SHORT_ID" # 必改：改成你自己的 short-id
+      public-key: "nUzfFd_KL-f0p0qgNGSiPZkUOTdUM5GFAwVJVe3wyV8" # 必改：改成你自己的 Reality 公钥
+      short-id: ",206fa03d,9300,75,27a060,2245,cb721a6b,b8,cf,cd,80efc6,5a54d5da,9c2fec,a74035,4c,e278,7552,078a,6a675c4fa7,f0,9d57a9f134,97c45bcf,57b6a649,141d" # 必改：改成你自己的 short-id
     network: tcp
 
 proxy-groups:
